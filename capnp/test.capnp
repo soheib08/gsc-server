@@ -1,13 +1,7 @@
-@0xdbb9ad1f14bf0b36; 
+@0xabcdef0123456789;
 
 struct Person {
-  name @0 :Text;
-  birthdate @3 :Date;
-  email @1 :Text;
-}
-
-struct Date {
-  year @0 :Int16;
-  month @1 :UInt8;
-  day @2 :UInt8;
+  id @0 : UInt64;
+  name @1 : Text;
+  email @2 : Text;
 }
